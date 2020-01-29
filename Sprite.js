@@ -13,11 +13,11 @@ let bot = game.createSprite(4, 2);
 basic.showNumber(bot.get(LedSpriteProperty.Direction));
 
 input.onButtonPressed(Button.B, () => {
-    ball.ifOnEdgeBounce();
-    basic.showNumber
-}
+   ball.ifOnEdgeBounce();
+   basic.showNumber
+  }
 
 
-basic.forever(function () {
+  basic.forever(function() {
 
-})
+  })
