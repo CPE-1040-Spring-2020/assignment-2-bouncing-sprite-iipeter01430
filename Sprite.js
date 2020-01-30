@@ -21,3 +21,10 @@ input.onButtonPressed(Button.B, () => {
   basic.forever(function() {
 
   })
+  
+  let ball = game.createSprite(0, 2);
+basic.pause(200);
+ball.change(LedSpriteProperty.X, 2);
+
+input.onButtonPressed(Button.A, () => {
+    
